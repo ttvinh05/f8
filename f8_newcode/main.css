@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     color: green;
 }
@@ -20,4 +26,16 @@ h1 {
 .class-1-li {
     color: crimson;
     font-size: 20px;
+}
+
+div > h2 {
+    color: violet;
+}
+
+.dem1 + .dem1 {
+    text-decoration: line-through;
+}
+
+.dem1 ~ .dem1 {
+    color: tomato;
 }

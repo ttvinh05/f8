@@ -1,7 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #first-heading1 {
     color: blue;
 }
 
 .hehe {
     color: green;
+}
+
+.test1 {
+    color: yellowgreen;
+}
+
+.test3.test4 {
+    color: violet;
+}
+
+.test5 .test6{
+    color: tomato;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3.test-element4 {
+    text-decoration: line-through;
+}
+
+h2, .test-element1 {
+    color: teal;
+}
+
+div h2{
+    color: crimson;
 }
