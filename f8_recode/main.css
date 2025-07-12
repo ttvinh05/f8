@@ -47,3 +47,47 @@ h2.class#id {
 .class#id {
     color: blue !important;
 }
+
+:root {
+    --my_color: green;
+}
+
+/* Biến toàn cục */
+.bien {
+    color: var(--my_color);
+}
+
+/* Biến cục bộ */
+.bien2 {
+    --text-color: red;
+    color: var(--text-color);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.box2 {
+    width: 90%;
+    height: 200px;
+    background-color: red;
+}
+
+/* rem phụ thuộc vào thẻ html */
+h2.rem {
+    font-size: 2rem;
+}
+
+/* em phụ thuộc vào thẻ có thuộc tính font-size gần nhất */
+h2.em {
+    font-size: 1em;
+}
+
+/* vw- viewport-width: chiếm đúng bằng bao nhiêu % chiều ngang của trình duyệt luôn, vh là tương tự đối với chiều cao*/
+.box3 {
+    height: 20vh;
+    width: 40vw;
+    background-color: blue;
+}
