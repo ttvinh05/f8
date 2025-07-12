@@ -39,3 +39,11 @@ div > h2 {
 .dem1 ~ .dem1 {
     color: tomato;
 }
+
+h2.test-12-7#test-12-7-2 {
+    color: red;
+}
+
+.test-12-7 {
+    color: turquoise !important;
+}

@@ -4,6 +4,7 @@
         <title>f8 - shop</title>
         <meta charset="utf-8">
 
+        <link rel="stylesheet" href="main.css">
         <!-- CSS internal-->
         <!-- <style>
             h1 {
@@ -12,8 +13,21 @@
             }
         </style> -->
 
+        <style>
+            #nb2 {
+                color: tomato;
+            }
+
+            .nb1 {
+                color: gray;
+            }
+
+            h1 { 
+                color: violet;
+            }
+        </style>
         <!-- CSS external -->
-        <link rel="stylesheet" href="main.css">
+        
     </head>
 
     <body>
@@ -102,6 +116,11 @@
          <div class="lag">
             <h2 class="log">kkk</h2>
          </div>
+
+         <!-- Test độ ưu tiên CSS: inline > id > class > tag-->
+         <h1 style="color:springgreen;" class="nb1" id="nb2">inline number1</h1>
+
+         <h2 class="class" id="id">Lorem, ipsum dolor.</h2>
 
     </body>
 </html>

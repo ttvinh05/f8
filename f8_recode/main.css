@@ -39,3 +39,11 @@ h2, .test-element1 {
 div h2{
     color: crimson;
 }
+
+h2.class#id {
+    color: sandybrown;
+}
+
+.class#id {
+    color: blue !important;
+}
