@@ -55,3 +55,11 @@ h2.test-12-7#test-12-7-2 {
 li {
     color: var(--li_color);
 }
+
+.submit:hover {
+background-color: aqua;
+}
+
+li:last-child {
+    color: cadetblue;
+}
