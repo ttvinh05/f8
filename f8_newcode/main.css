@@ -63,3 +63,20 @@ background-color: aqua;
 li:last-child {
     color: cadetblue;
 }
+
+.dem0 {
+    padding: 10px;
+}
+
+.submit {
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+}
+
+.img {
+    padding: 10px 10px 10px 10px;
+    border-top: 10px solid green;
+}

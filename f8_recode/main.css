@@ -145,3 +145,29 @@ a::after {
     width: 50px;
     height: 50px;
 }
+
+.padding {
+    background-color: red;
+    width: 100px;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.padding {
+    border-width: thick ;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.padding {
+    margin: 10px;
+}
+
+.box-sizing {
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    padding: 10px;
+    box-sizing: border-box;
+}
