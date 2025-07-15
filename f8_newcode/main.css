@@ -79,4 +79,14 @@ li:last-child {
 .img {
     padding: 10px 10px 10px 10px;
     border-top: 10px solid green;
+    height: 300px;
+}
+
+.div {
+    width: 50vw;
+    height: 50vw;
+    background-image: 
+    linear-gradient(90deg, rgba(209, 57, 19, 0.5), rgba(17, 213, 213, 0.5)),
+    url(assets/images/henam2.jpg);
+    background-size: 100% 100%;
 }
