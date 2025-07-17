@@ -199,7 +199,7 @@ a::after {
     background-origin: padding-box;
 }
 
-.position {
+.b-position {
     width: 100%;
     height: 100vh;
     background-image: url(https://dimensions.edu.vn/upload/720x1280/2025/01/hinh-nen-dien-thoai-meme-7-720x1280.webp);
@@ -211,6 +211,56 @@ a::after {
 .shorthand {
     width: 100%;
     height: 100vh;
-    background: ;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYymsafqOw4XmfG4FyvBbF7rC9-7uIatuiw&s) no-repeat center / contain;
+}
+
+.position-relative {
+    position: relative;
+    top: 15px;
+}
+
+.boxtest {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+
+.boxtest2 {
+    width: 75%;
+    height: 150px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.boxtest3 {
+    width: 50%;
+    height: 100px;
+    background-color: crimson;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.fixed {
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.dd {
+    margin-top: 120px;
+}
+
+.sticky {
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    position: sticky;
+    bottom: 0;
 }
