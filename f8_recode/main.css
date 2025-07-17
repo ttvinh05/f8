@@ -187,3 +187,30 @@ a::after {
     height: 50vh;
     background-image: linear-gradient(90deg, red, green);
 }
+
+.origin {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://app.gak.vn/storage/uploads/2hgISshQgnlJ2WRSJ5tm07Tp89gptJsMoX1mAjMq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    border: 20px dashed red;
+    background-origin: padding-box;
+}
+
+.position {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://dimensions.edu.vn/upload/720x1280/2025/01/hinh-nen-dien-thoai-meme-7-720x1280.webp);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: top 50px right 50px;
+}
+
+.shorthand {
+    width: 100%;
+    height: 100vh;
+    background: ;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYymsafqOw4XmfG4FyvBbF7rC9-7uIatuiw&s) no-repeat center / contain;
+}

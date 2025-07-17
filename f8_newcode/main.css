@@ -90,3 +90,20 @@ li:last-child {
     url(assets/images/henam2.jpg);
     background-size: 100% 100%;
 }
+
+/* có 2 loại background-size là cover và containt, thu kéo màn hình để thấy rõ hơn */
+.cover {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/images/selfie1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contain {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/images/selfie2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
